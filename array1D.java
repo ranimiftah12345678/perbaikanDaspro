@@ -6,8 +6,7 @@ public class array1D {
         char karakter = 'A';
 
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = karakter;
-            karakter++;
+            arr[i] = karakter++;
         }
 
         int indeks = 0;
@@ -18,11 +17,10 @@ public class array1D {
             }
             for (int kolom = 0; kolom < baris; kolom++) {
                 if (indeks < arr.length) {
-                    System.out.print(arr[indeks]);
-                    indeks++;
+                    System.out.print(arr[indeks++]);
                 }
             }
-            System.out.println(); 
+            System.out.println();
         }
     }
 }

@@ -17,7 +17,7 @@ public class Prima {
                 }
             }
         }
-
+        
         if (prima) {
             System.out.println(n + " adalah bilangan prima.");
         } else {
